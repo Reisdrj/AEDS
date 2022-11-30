@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.ico" type="image/x-icon">
+    <title>ReisdDEV</title>
+    <link rel="stylesheet" href="style.css"> 
+    <STYLE>
+        body {
+            background-color: rgb(224, 236, 241);
+        }
+    </STYLE>
+</head>
+<main>
+    <body>
+    <h1>Exemplos de códigos utilizando a linguagem C:</h1>
+    <p><strong>-O script abaixo lê dois números e os mostra em ordem inversa:</strong></p>
+    <div id="cod1">
+    <pre>
+    <code>
+    #include &lt;stdio.h&gt;
+
+        void main () {
+            float num1, num2;
+            puts("Insira dois valores: ");
+            scanf("%f %f", &num1, &num2);
+            printf("%.1f e %.1f\n", num2, num1);
+        }
+    </code>
+    </pre>
+    </div>
+    <p><strong>-Esse verifica se o número inserido é par ou ímpar:</strong></p>
+    <div id="cod2">
+    <pre>
+    <code>
+        #include &lt;stdio.h&gt;
+
+            void main () {
+                int num;
+                puts("Insira um número para saber se ele é par ou ímpar: ");
+                scanf("%d", &num);
+                if ((num % 2) == 0 || num == 0)
+                    printf("O número %d é par!\n", num);
+                else
+                    printf("O número %d é ímpar!\n", num);
+            }
+    </code>
+    </pre>
+    </div>
+    <p><strong>-</strong>Nota-se que a linguagem possui seus comandos específicos para o funcionamento correto do projeto.</p>
+    <h3>Explicação dos códgios:</h3>
+    <ul>
+        <li>
+            <dl>
+                <dt><strong>#include &lt;stdio.h&gt;</strong></dt>
+                <dd>Inclui a biblioteca Standard Input/Output</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><strong>void main()</strong></dt>
+                <dd>Inicializa a função principal do código(é obrigatório ter a função main)</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><strong>int / float / char</strong></dt>
+                <dd>Inicialiação das variáves (que deve ser feita antes do uso das mesmas)</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><strong>printf("")</strong></dt>
+                <dd>Incluso na biblioteca 'stdio.h', é responsável por "imprimir" o conteúdo dos parênteses na tela</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><strong>scanf("")</strong></dt>
+                <dd>Incluso na biblioteca 'stdio.h', é responsável por ler e armazenar o conteúdo inserido ém uma variável.</dd>
+            </dl>
+        </li>
+    </ul>
+    <a href="index.html" target="_self">Voltar para a primeira página</a>
+    </body>
+</main>
+</html>

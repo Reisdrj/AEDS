@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img{
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+}
+body {
+    text-align: justify;
+    text-justify: distribute;
+    background-image: linear-gradient(20deg, rgb(36, 188, 235),rgb(62, 189, 228),rgb(96, 197, 228)5%,rgb(141, 206, 228),rgb(168, 211, 224));
+    background-attachment: fixed;
+}
+main{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-track{
+    background: rgb(152, 199, 238);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(62, 158, 236);
+    border-radius: 20px;
+    border: 3px;
+}
